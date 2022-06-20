@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <!-- link light-slider-css -->
+    <link rel="stylesheet" href="./css/lightslider.css" />
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <!-- link font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- script Jquery -->
+    <script src="./js/JQuery.js"></script>
+    <!-- script light-slider -->
+    <script src="./js/lightslider.js"></script>
+
+    <title>Fashion Shop</title>
+  </head>
+  <body>
+    <!-- Navigation ------------------------------------>
+    <nav>
+      <!-- social-link and phone number -->
+      <div class="social-call">
+        <!-- social-link -->
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <!-- phone number -->
+        <div class="phone">
+          <span>Call: 0909686868</span>
+        </div>
+      </div>
+      <!-- menu bar -->
+      <div class="navigation">
+        <!-- logo -->
+        <a href="#" class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <!-- menu-icon -->
+        <div class="toggle">
+            
+        </div>
+        <!-- menu -->
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Men</a>
+            <!-- sale label -->
+            <span class="sale-lable">Sale</span>
+          </li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+        <!-- right-menu -->
+        <div class="right-menu">
+          <!-- search -->
+          <a href="#" class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <!-- user -->
+          <a href="javascript:void(0);" class="user"><i class="fa-solid fa-user"></i></a>
+          <!-- shopping cart -->
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping">
+              <!-- number of product in cart -->
+              <span class="num-cart-product">0</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- search bar----------------------------------->
+    <div class="search-bar">
+      <!-- search input -->
+      <div class="search-input">
+        <!-- input -->
+        <input type="text" placeholder="Search For Product" />
+        <!-- cancel btn -->
+        <a href="javascript:void(0);" class="search-cancel">
+          <i class="fa-solid fa-xmark"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- login and sign up form ---------------------------->
+    <div class="form">
+      <!-- login------------------------------------------------------------- -->
+      <div class="login-form">
+        <!-- cancel btn form -->
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fa-solid fa-xmark"></i>
+        </a>
+        <!-- heading -->
+        <strong>Login</strong>
+        <!-- input -->
+        <form>
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <!-- submit btn -->
+          <input type="submit" value="Login" />
+        </form>
+        <!-- forget and sign up btn -->
+        <div class="form-btns">
+          <a href="#" class="forget">Forget Your Password?</a>
+          <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+        </div>
+      </div>
+
+      <!-- Sign up -------------------------------------------------------------->
+      <div class="sign-up-form">
+        <!-- cancel btn form -->
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fa-solid fa-xmark"></i>
+        </a>
+        <!-- heading -->
+        <strong>Sign Up</strong>
+        <!-- input -->
+        <form>
+          <input type="text" placeholder="Full Name" name="fullname" required />
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <!-- submit btn -->
+          <input type="submit" value="Sign Up" />
+        </form>
+        <!-- forget and sign up btn -->
+        <div class="form-btns">
+          <a href="javascript:void(0);" class="already-account">Already Have Account</a>
+        </div>
+      </div>
+    </div>
+    <!--  end Login form -->
+
+    <!-- Full slider------------------------------------->
+    <ul id="adaptive" class="cs-hidden">
+      <!-- box-1 -->
+      <li class="item-a">
+        <!-- box----- -->
+        <div class="full-slider-box f-slider-1">
+          <!-- slider-text-container -->
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited offer</span>
+              <strong
+                >40% off <br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- box-2 -->
+      <li class="item-a">
+        <!-- box----- -->
+        <div class="full-slider-box f-slider-2">
+          <!-- slider-text-container -->
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited offer</span>
+              <strong
+                >30% off <br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- box-3 -->
+      <li class="item-a">
+        <!-- box----- -->
+        <div class="full-slider-box f-slider-3">
+          <!-- slider-text-container -->
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited offer</span>
+              <strong
+                >50% off <br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- box-4 -->
+      <li class="item-a">
+        <!-- box----- -->
+        <div class="full-slider-box f-slider-4">
+          <!-- slider-text-container -->
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited offer</span>
+              <strong
+                >30% off <br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <!--end full-slider-box -->
+
+    <!-- Featured Categories----------------->
+    <div class="feature-heading">
+      <h2>Featured Categories</h2>
+    </div>
+
+    <ul id="autoWidth" class="cs-hidden">
+      <!-- 1--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_1.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 1----------------------- -->
+        <span>T-Shirt</span>
+      </li>
+      <!-- 2--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_2.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 2----------------------- -->
+        <span>T-Shirt</span>
+      </li>
+      <!-- 3--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_3.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 3----------------------- -->
+        <span>T-Shirt</span>
+      </li>
+      <!-- 4--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_4.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 4----------------------- -->
+        <span>Pillow</span>
+      </li>
+      <!-- 5--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_5.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 5----------------------- -->
+        <span>Phone Case</span>
+      </li>
+      <!-- 6--------------------- -->
+      <li class="item">
+        <!-- Feature-box -->
+        <div class="feature-box">
+          <a href="#">
+            <img src="images/feature_6.jpg" alt="1" />
+          </a>
+        </div>
+        <!-- text 6----------------------- -->
+        <span>Hand Bag</span>
+      </li>
+    </ul>
+
+    <!-- New arrival------------------------------------------- -->
+    <section class="new-arrival">
+      <!-- heading -->
+      <div class="arrival-heading">
+        <strong>New Arrival</strong>
+        <p>We Provide You New Design Fashion Clothes</p>
+      </div>
+      <!-- product-container ---------------------->
+        <div class="product-container">
+            <!-- product-box 1 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-1.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">T-Shirt Basic</a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>   
+            <!-- product-box 2 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-2.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Shirt Basic</a>
+                    <span class="p-price">$66.00</span>
+                </div>
+            </div>
+            <!-- product-box 3 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-3.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Stylish T-Shirts</a>
+                    <span class="p-price">$44.00</span>
+                </div>
+            </div>
+            <!-- product-box 4 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-4.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Phone Case</a>
+                    <span class="p-price">$10.00</span>
+                </div>
+            </div>
+            <!-- product-box 5 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-5.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Coat Basic</a>
+                    <span class="p-price">$100.00</span>
+                </div>
+            </div>
+            <!-- product-box 6 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-6.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Jean Jacket</a>
+                    <span class="p-price">$220.00</span>
+                </div>
+            </div> 
+            <!-- product-box 7 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-7.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Coat Stylish</a>
+                    <span class="p-price">$122.00</span>
+                </div>
+            </div>
+            <!-- product-box 8 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <img src="images/p-8.png" alt="" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Woman Blazer</a>
+                    <span class="p-price">$200.00</span>
+                </div>
+            </div>
+         </div> <!--end product-container -->
+    </section>
+    <!-- Sale -->
+    <section class="sale">
+        <!-- sale box 1 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="images/sale-1.jpg" alt="s1">
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Bag With Yellow Pattern</strong>
+                    <span>Sale off 25%</span>
+                </div>
+            </a>
+        </div>
+        <!-- sale box 2 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="images/sale-2.jpg" alt="s1">
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Pillow With Rose Pattern</strong>
+                    <span>Sale off 35%</span>
+                </div>
+            </a>
+        </div>
+        <!-- sale box 3 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="images/sale-3.jpg" alt="s1">
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Pillow With Green Pattern</strong>
+                    <span>Sale off 35%</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- New arrival 2------------------------------------------- -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+          <strong>Feature Items</strong>
+          <p>We Provide You New Design Fashion Clothes</p>
+        </div>
+        <!-- product-container ---------------------->
+          <div class="product-container">
+              <!-- product-box 1 -->
+              <div class="product-box">
+                  <!-- img -->
+                  <div class="product-img">
+                      <!-- add cart -->
+                      <a href="#" class="add-cart">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      </a>
+                      <img src="images/p-1.png" alt="" />
+                  </div>
+                  <!-- details -->
+                  <div class="product-details">
+                      <a href="#" class="p-name">Yellow T-Shirt</a>
+                      <span class="p-price">$22.00</span>
+                  </div>
+              </div>   
+              <!-- product-box 2 -->
+              <div class="product-box">
+                  <!-- img -->
+                  <div class="product-img">
+                      <!-- add cart -->
+                      <a href="#" class="add-cart">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      </a>
+                      <img src="images/p-2.png" alt="" />
+                  </div>
+                  <!-- details -->
+                  <div class="product-details">
+                      <a href="#" class="p-name">Blue Shirt</a>
+                      <span class="p-price">$66.00</span>
+                  </div>
+              </div>
+              <!-- product-box 3 -->
+              <div class="product-box">
+                  <!-- img -->
+                  <div class="product-img">
+                      <!-- add cart -->
+                      <a href="#" class="add-cart">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      </a>
+                      <img src="images/p-3.png" alt="" />
+                  </div>
+                  <!-- details -->
+                  <div class="product-details">
+                      <a href="#" class="p-name">Black T-shirt</a>
+                      <span class="p-price">$44.00</span>
+                  </div>
+              </div>
+              <!-- product-box 4 -->
+              <div class="product-box">
+                  <!-- img -->
+                  <div class="product-img">
+                      <!-- add cart -->
+                      <a href="#" class="add-cart">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      </a>
+                      <img src="images/p-4.png" alt="" />
+                  </div>
+                  <!-- details -->
+                  <div class="product-details">
+                      <a href="#" class="p-name">Red Phone Case</a>
+                      <span class="p-price">$10.00</span>
+                  </div>
+              </div>
+           </div> <!--end product-container -->
+    </section>
+
+    <!-- Banner------------------------------------------------ -->
+    <div class="banner-box f-slider-3">
+        <!-- banner-text-container -->
+        <div class="banner-text-container">
+          <div class="banner-text">
+            <span>Limited offer</span>
+            <strong
+              >50% off <br />
+              with <font>promo code</font></strong
+            >
+            <a href="#" class="banner-btn">Shop Now</a>
+          </div>
+        </div>
+    </div>
+    <!-- Services---------------- -->
+    <section class="services">
+        <!-- services-box 1-->
+        <div class="services-box">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping For all VN order</p>
+        </div>
+        <!-- services-box 2-->
+        <div class="services-box">
+            <i class="fa-solid fa-headphones"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <!-- services-box 3-->
+        <div class="services-box">
+            <i class="fa-solid fa-rotate"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+    </section>
+    <!-- footer------------------->
+    <footer>
+        <!-- coppyright -->
+        <span class="coppyright">
+            Coppyright 2022 - Phan Minh Tuan
+        </span>
+        <!-- subscribe -->
+        <div class="subscribe">
+            <form action="">
+                <input type="email" placeholder="Example@gmail.com" required />
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- script -->
+    <script src="./js/handle.js"></script>
+  </body>
+</html>
